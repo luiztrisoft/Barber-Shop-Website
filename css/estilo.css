@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,100italic,300italic);
+
+html {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6,figure,ul{
+	margin: 0;
+}
+
+h1{
+	font-size: 2em;
+}
+
+/*Ajusta a imagem ao redimensionar a janela*/
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	color: #0BC5D8;
+}
+
+a:hover{
+	color: #EA6E39;
+}
+
+a:visited{
+	color: #AAAAAA;
+}
+
+a:active{
+	color: #FF0000;
+}
+
+/*ordernar na horizontal sem necessidade de float*/
+.fp-video, .ft-art,  .menu-item{
+	display: inline-block; 
+}
+
+
+
+/*define o tamanho máximo dos elementos e centraliza na página*/
+.conteudo{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+/*logo*/
+.logo{
+	margin: 25px;
+	text-align: center;
+}
+
+/*posição e estilo do menu*/
+nav{
+	background-color: #2E353E;
+	text-align: center;
+}
+
+.menu-item{
+	text-transform: uppercase;
+}
+
+.menu-item a div{
+	padding: 20px;
+}
+
+.menu-item a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.menu-item:hover{
+	background-color: #0BC5D8;
+}
+
+/*seção featured*/
+.featured{
+	background-color: #F2F2F2;
+}
+
+.fp-video{
+	width: 55%;
+	padding: 2em;
+	vertical-align: top;
+}
+
+.ft-art{
+	width: 30%;
+	padding: 2em;
+	vertical-align: top;
+}
+
+/* estilo para os botões*/
+.botao-container{
+	text-align: center;
+	background-color: #EA6E39;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.detalhes .botao-container{
+	text-align: center;
+	background-color: #2E353E;
+	margin: 0 auto;
+	height: auto;
+	text-decoration: none;
+	color: #FFF;
+	padding: 5px 20px;
+}
+
+.detalhes .botao-container:hover{
+	background-color: #0BC5D8;
+}	
+
+.botao-container a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.botao-container :hover{
+	background-color: #1FBEA4;
+}
+.botao{
+	padding: 15px;
+}
+
+/*estilo dos artigos*/
+article{
+	padding: 30px;
+	background-color: #F2F2F2;
+	margin: 20px 0;
+}
+
+.art-image{
+	display: inline-block;
+	width: 210px;
+	margin-right: 10px;
+}
+
+.art-cont{
+	display: inline-block;
+	width: 740px;
+	vertical-align: top;
+}
+
+figcaption{
+	background-color: #1FBEA4;
+	color: #FFF;
+	text-align: center;
+	padding: 5px;
+}
+
+/*Apenas h1 que extendam articles*/
+article h1{
+	border-bottom: solid thin black;
+}
+
+/*rodapé da página (footer)*/
+footer{
+	background-color: #2E353E;
+	color: #FFF;
+	line-height: 30px;
+	text-align: center;
+	padding: 45px;
+	margin-top: 20px;
+}
+
+form textarea, input{
+	margin: 5px auto;
+}
+
+form textarea{
+	padding: 10px;
+}

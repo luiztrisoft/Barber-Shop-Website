@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,100italic,300italic);
+
+html {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+h1{
+	margin: 0;
+	color: #545454;
+}
+
+h1{
+	font-size: 24px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.conteudo{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.central{
+	background-color: #F2F2F2;
+	margin: 0;
+	padding: 20px;
+}
+
+.logo{
+	margin: 25px;
+	text-align: center;
+}
+
+.copyright{
+	text-align: right;
+	font-size: 13px;
+}
+
+/*rodapé da página (footer)*/
+footer{
+	background-color: #2E353E;
+	color: #FFF;
+	line-height: 30px;
+	text-align: center;
+	padding: 45px;
+}
+
+form textarea, input{
+	margin: 5px auto;
+
+}
+
+form textarea{
+	padding: 10px;
+}
+
+@media all and (max-width: 767px){
+	
+	.conteudo{
+		width: 95%;
+	}
+	footer{
+		padding: 5px;
+	}
+
+	footer input {
+		width: 90%;
+	}
+
+	textarea{
+		width: 87%;
+	}
+}	
